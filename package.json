@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec 'mocha -R min'"
+    "test": "mocha",
+    "test-nodemon": "nodemon --exec 'mocha -R min'"
   },
   "keywords": [],
   "author": "",
